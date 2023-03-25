@@ -1,3 +1,11 @@
+<script setup>
+const props = defineProps({
+  podcast: {
+    type: Object,
+    required: true
+  }
+})
+</script>
 <template>
     <v-card
       class="mx-auto"
@@ -6,18 +14,16 @@
       <v-img
         class="align-end text-white"
         height="200"
-        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+        :src="podcast['im:image'][2].label"
         cover
       >
       </v-img>
       <v-card-subtitle class="pt-4">
-        Number 10
+        {{podcast['title'].label  }}
       </v-card-subtitle>
       <v-card-text>
         <div>Whitehaven Beach</div>
         <div>Whitsunday Island, Whitsunday Islands</div>
       </v-card-text>
-      <v-card-actions>
-      </v-card-actions>
     </v-card>
   </template>
