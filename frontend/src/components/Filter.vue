@@ -3,14 +3,14 @@
   <v-card
   class="mx-auto"
   color="grey-lighten-3"
-  max-width="400"
+  max-width="500"
 >
   <v-card-text>
     <v-text-field
       :loading="loading"
       density="compact"
       variant="solo"
-      label="Search templates"
+      label="Filter podcast..."
       append-inner-icon="mdi-magnify"
       single-line
       hide-details

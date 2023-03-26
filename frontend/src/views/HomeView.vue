@@ -30,7 +30,6 @@ console.log(podcasts.value);
 </section>
 </template>
 <style scoped>
-
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -64,8 +63,6 @@ section {
   }
 }
 </style>
-
-
 
 
 
