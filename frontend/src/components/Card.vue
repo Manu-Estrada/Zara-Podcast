@@ -21,9 +21,8 @@ const props = defineProps({
       <v-card-subtitle class="pt-4">
         {{podcast['title'].label  }}
       </v-card-subtitle>
-      <!-- <v-card-text>
-        <div></div>
-        <div></div>
-      </v-card-text> -->
+      <v-card-text>
+        <div>Artist:</div>
+      </v-card-text>
     </v-card>
   </template>

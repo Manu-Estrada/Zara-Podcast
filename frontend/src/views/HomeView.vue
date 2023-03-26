@@ -30,14 +30,7 @@ console.log(podcasts.value);
 </section>
 </template>
 <style scoped>
-header {
- width: 100%;
- height: 20%;
-}
-filter {
-   width: 100%;
- height: 20%;
-}
+
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
